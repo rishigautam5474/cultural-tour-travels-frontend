@@ -1,0 +1,65 @@
+.sign{
+    position: relative;
+    background-color: rgb(203, 203, 203);
+    width: 49%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 8% 27% 0;
+}
+
+.form-label{
+    float: left;
+    margin-top: 10px;
+}
+
+.form-check{
+    float: left;
+    margin: 10px 0;
+}
+
+.log{
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 2px;
+}
+
+.mar2 a{
+    text-decoration: none;
+}
+
+.cen{
+    text-align: center;
+}
+
+.mar{
+    margin-top: 3px;
+}
+
+.logiform{
+    text-align: left;
+}
+
+.mar2{
+    margin-top: 10px;
+}
+
+button{
+    width: 100%;
+}
+
+@media screen and (max-width : 850px) {
+    .sign{
+        position: absolute;
+        background-color: rgb(203, 203, 203);
+        width: 80%;
+        border-radius: 10px;
+        margin: 25% 10%;
+    }
+    
+    button{
+        margin-top: 10px;
+        width: 100%;
+    }
+}

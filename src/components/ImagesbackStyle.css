@@ -1,0 +1,98 @@
+.container-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.first-Img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.Home-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.About-text{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 100%;
+}
+
+.Home-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #fff;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #fff;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #fff;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #fff;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Home-text p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.Home-text .showBtn{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.Home-text .hideBtn{
+    display: none;
+}
+
+@media screen and (max-width: 555px){
+    .Home-text h1{
+        padding: 10px 20px;
+        line-height: 60px;
+    }
+
+    .Home-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .Home-text .showBtn{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
